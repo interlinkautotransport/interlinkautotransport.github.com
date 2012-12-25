@@ -82,7 +82,7 @@ body {
     border-top: 20px solid #666;
 }
 
-.header-container,
+.header-container { background: #fff;}
 .footer-container,
 .main aside {
     background: #999;
