@@ -112,6 +112,7 @@ nav a {
 
     color: white;
     background: #666;
+	border-radius: 5px 5px 0 0;
 }
 
 nav a:hover,
@@ -163,7 +164,9 @@ nav a:hover {
 
 #logo {height:70px;}
 
-
+.main aside {
+	border-radius: 5px;
+}
 
 
 
