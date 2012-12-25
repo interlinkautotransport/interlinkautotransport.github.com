@@ -83,7 +83,7 @@ body {
 }
 
 .header-container { background: #fff;}
-.footer-container { background: url(cartographer.png) repeat;}
+.footer-container,
 .main aside {
     background: #999;
 }
