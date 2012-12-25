@@ -167,7 +167,7 @@ nav a:hover {
 	border-radius: 5px;
 }
 
-
+nav a {border-radius: 5px;}
 
 
 
@@ -200,6 +200,8 @@ nav a:hover {
     nav li:last-child a {
         margin-right: 0;
     }
+	
+	nav a {border-radius: 5px 5px 0 0;}
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -226,8 +228,6 @@ nav a:hover {
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
     }
-
-    nav a {border-radius: 5px 5px 0 0;}
 
 /* ============
     WIDE: Menu
