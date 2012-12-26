@@ -207,9 +207,9 @@ nav a {border-radius: 5px;}
 	nav a {border-radius: 5px 5px 0 0;}
 	
 	.footer-container {
-		-webkit-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.2);
-		   -moz-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.2);
-		        box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
+		   -moz-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
+		        box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
 	}
 
 /* ========================
