@@ -9,6 +9,7 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <style>
 
     /* GLOBAL STYLES
@@ -147,7 +148,9 @@
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
     }
     .featurette-image {
-      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+		font-size: 160px;
+/*      margin-top: -100px; */
+/* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     }
 
     /* Give some space on the sides of the floated elements so text doesn't run right into it. */
@@ -302,6 +305,8 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#customers">Customers</a></li>
+                <li><a href="#employment">Employment</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <!-- <li class="dropdown">
                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -372,51 +377,47 @@
 
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span6">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <!-- <h2>Heading</h2> -->
-          <img class="img-rounded" src="http://www.interlinkautotransport.com/images/360_LOGO_INVOICE_Converted_2_.jpg" />
-        </div><!-- /.span4 -->
-        <div class="span6">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2 id="about">About</h2>
-          Interlink Auto Transport LLC was established in 2010.  We are proud to be a Certified Women's Business Enterprise.  We currently work with various OEM's in mananging the logistics of their vehicles from Plants, Ports, and Railheads. Interlink continues to build new relationships and incorporate new technology in order to provide more services for its customers and opportunities for its team members.
-        </div><!-- /.span4 -->
-        <!-- <div class="span4">
-                  <img class="img-circle" data-src="holder.js/140x140">
-                  <h2>Heading</h2>
-                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div> -->
-      </div><!-- /.row -->
 
 
       <!-- START THE FEATURETTES -->
 
+
+      <div class="featurette" id="about">
+        <img class="featurette-image pull-left" src="http://www.interlinkautotransport.com/images/360_LOGO_INVOICE_Converted_2_.jpg">
+        <h2 class="featurette-heading">About</h2>
+        <p class="lead">Interlink Auto Transport LLC was established in 2010.  We are proud to be a Certified Women's Business Enterprise.</p>
+      </div>
+
       <hr class="featurette-divider">
 
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="featurette" id="customers">
+        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
+		<i class="featurette-image pull-right icon-group"></i>
+        <h2 class="featurette-heading">Customers<!-- <span class="muted">It'll blow your mind.</span> --></h2>
+        <p class="lead">We currently work with various OEM's in mananging the logistics of their vehicles from Plants, Ports, and Railheads. Interlink continues to build new relationships and incorporate new technology in order to provide more services for its customers and opportunities for its team members.</p>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette" id="contact">
-        <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png">
-        <h2 class="featurette-heading">Contact <span class="muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <!-- <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png"> -->
+		<i class="featurette-image pull-left icon-envelope"></i>
+        <h2 class="featurette-heading">Contact<!-- <span class="muted">See for yourself.</span> --></h2>
+        <p class="lead">Interlink Auto Transport LLC
+		1201 S. State St Ste 204
+		Lemont, IL 60439
+		Office 630-312-8282
+		Fax 630-203-0961</p>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="featurette" id="employment">
+		<i class="featurette-image pull-right icon-truck icon-large"></i>
+        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png"> -->
+        <h2 class="featurette-heading">Employment<!-- <span class="muted">Checkmate.</span> --></h2>
+        <p class="lead">Interlink Auto Transport has immediate openings for Company Drivers and Owner Operators.
+		Requirements are at least 25 years of age with at least 2 years car hauling Owner Operators must have at least a 2000 or newer piece of equipment.</p>
       </div>
 
       <hr class="featurette-divider">
