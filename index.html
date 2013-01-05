@@ -147,7 +147,16 @@
       padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
     }
-    .featurette-image {
+	
+	.featurette-image {
+		margin-top: -40px;
+	}
+	
+	.featurette-button {
+		margin-top: 15px;
+	}
+
+    .featurette-icon {
 		font-size: 160px;
 /*      margin-top: -100px; */
 /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
@@ -392,7 +401,7 @@
 
       <div class="featurette" id="customers">
         <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
-		<i class="featurette-image pull-right icon-group"></i>
+		<i class="featurette-icon pull-right icon-group"></i>
         <h2 class="featurette-heading">Customers<!-- <span class="muted">It'll blow your mind.</span> --></h2>
         <p class="lead">We currently work with various OEM's in mananging the logistics of their vehicles from Plants, Ports, and Railheads. Interlink continues to build new relationships and incorporate new technology in order to provide more services for its customers and opportunities for its team members.</p>
       </div>
@@ -401,7 +410,7 @@
 
       <div class="featurette" id="contact">
         <!-- <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png"> -->
-		<i class="featurette-image pull-left icon-envelope"></i>
+		<i class="featurette-icon pull-left icon-envelope"></i>
         <h2 class="featurette-heading">Contact<!-- <span class="muted">See for yourself.</span> --></h2>
         <p class="lead">Interlink Auto Transport LLC
 		1201 S. State St Ste 204
@@ -413,11 +422,13 @@
       <hr class="featurette-divider">
 
       <div class="featurette" id="employment">
-		<i class="featurette-image pull-right icon-truck icon-large"></i>
-        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png"> -->
+		<i class="featurette-icon pull-right icon-truck icon-large"></i>
+		<a class="featurette-button btn btn-large btn-primary pull-right" href="#">Apply today</a>
         <h2 class="featurette-heading">Employment<!-- <span class="muted">Checkmate.</span> --></h2>
+
         <p class="lead">Interlink Auto Transport has immediate openings for Company Drivers and Owner Operators.
-		Requirements are at least 25 years of age with at least 2 years car hauling Owner Operators must have at least a 2000 or newer piece of equipment.</p>
+		Requirements are at least 25 years of age with at least 2 years car hauling experience. Owner Operators must have at least a 2000 or newer piece of equipment.</p>
+
       </div>
 
       <hr class="featurette-divider">
