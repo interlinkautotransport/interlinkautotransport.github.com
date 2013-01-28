@@ -229,8 +229,7 @@ line-height: 1.5;
 
 .nav { margin: 30px 0;}
 .container.navbar-wrapper {
-margin: 20px;
-width: auto;
+margin: 1em 0 1em 0;
 }
 #social-icons {font-size: 48px;margin: -14px 0 0 100px;}
 #social-icons a {text-decoration:none;}
@@ -238,11 +237,11 @@ width: auto;
 
 address {font-size: 18px;}
 
-/*.nav-pills > .active > a, .nav-pills > .active > a:hover
+.nav-pills > .active > a, .nav-pills > .active > a:hover
 {
   color: #ffffff;
-  background-color: #F63002;
+  background-color: #666666;
 }
 
 a,
-a:hover {color: #F63002;}*/
+a:hover {color: #666666;}

@@ -43,15 +43,15 @@
 
 
 
-	<div class="container navbar-wrapper">
-		 <a href="#" class="brand pull-left"><img class="" src="img/logo.png" id="logo"></a>
-	    <ul class="nav nav-pills pull-right">
+	<div class="container row-fluid navbar-wrapper">
+		 <a href="#" class="brand span4 offset2"><img class="" src="img/logo.png" id="logo"></a>
+	    <ul class="nav nav-pills span6">
 		{% if page.title == 'Home' %}			
 	  <li class="active">
 		{% else %}
 		<li>
 		{% endif %}
-		<a href="/">Home</a></li>
+		<a href="/">About</a></li>
 			{% if page.title == 'Customers' %}			
 		  <li class="active">
 			{% else %}
