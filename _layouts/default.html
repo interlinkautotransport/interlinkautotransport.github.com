@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Interlink Auto Transport LLC</title>
+    <title>Interlink Auto Transport :: {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -44,12 +44,34 @@
 
 
 	<div class="container navbar-wrapper">
-		 <a href="#" class="brand pull-left"><img class="" src="img/logo-blue.png" id="logo"></a>
+		 <a href="#" class="brand pull-left"><img class="" src="img/logo.png" id="logo"></a>
 	    <ul class="nav nav-pills pull-right">
-	      <li class="active"><a href="/">Home</a></li>
-		  <li><a href="customers.html">Customers</a></li>
-	      <li><a href="contact.html">Contact</a></li>
-	      <li><a href="employment.html">Employment</a></li>
+		{% if page.title == 'Home' %}			
+	  <li class="active">
+		{% else %}
+		<li>
+		{% endif %}
+		<a href="/">Home</a></li>
+			{% if page.title == 'Customers' %}			
+		  <li class="active">
+			{% else %}
+			<li>
+			{% endif %}			
+			<a href="customers.html">Customers</a>
+		  </li>
+
+	    		{% if page.title == 'Contact' %}			
+			  <li class="active">
+				{% else %}
+				<li>
+				{% endif %}
+		<a href="contact.html">Contact</a></li>
+	      		{% if page.title == 'Employment' %}			
+			  <li class="active">
+				{% else %}
+				<li>
+				{% endif %}
+		<a href="employment.html">Employment</a></li>
 		</ul>
 	</div>
 
@@ -142,12 +164,12 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
+      // !function ($) {
+      //   $(function(){
+      //     // carousel demo
+      //     // $('#myCarousel').carousel()
+      //   })
+      // }(window.jQuery)
     </script>
 
 	<script type="text/javascript">
