@@ -11,7 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/large.css">
 	
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -51,7 +51,13 @@
 		{% else %}
 		<li>
 		{% endif %}
-		<a href="/">About</a></li>
+		<a href="/">Home</a></li>
+		{% if page.title == 'About' %}			
+	  <li class="active">
+		{% else %}
+		<li>
+		{% endif %}
+		<a href="about.html">About</a></li>
 			{% if page.title == 'Customers' %}			
 		  <li class="active">
 			{% else %}
@@ -75,55 +81,6 @@
 		</ul>
 	</div>
 
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="photos/8329.jpg" alt="">
-   
-          <!-- <div class="container">
-                     <div class="carousel-caption">
-                       <h1>Interlink Auto Transport</h1>
-                        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <a class="btn btn-large btn-primary" href="#">Contact us today</a>
-                     </div>
-                   </div> -->
-        </div>
-		<div class="item">
-	       <img src="photos/8229.jpg" alt="" />
-		</div>
-        <div class="item">
-          <img src="photos/8255.jpg" alt="" />
-        </div>
-		<div class="item">
-     		<img src="photos/8446.jpg" alt="" />
-		</div>
-       <div class="item">
-          <img src="photos/8303.jpg" alt="" />
-        </div>
-		<div class="item">
-		  <img src="photos/8330.jpg" alt="" />
-		  <img src="photos/8248.jpg" alt="" />
-		</div>
-		<div class="item">
-		  <img src="photos/8489.jpg" alt="" />
-		  <img src="photos/8446.jpg" alt="" />
-		</div>
-		<div class="item">
-		  <img src="photos/8296.jpg" alt="" />
-		</div>
-		<div class="item">
-			  <img src="photos/0776.jpg" alt="" />
-		</div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
-
-
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -137,7 +94,6 @@
     
       <!-- /END THE FEATURETTES -->
 
-      <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <footer>
@@ -160,7 +116,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <script>

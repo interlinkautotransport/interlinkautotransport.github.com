@@ -1,0 +1,163 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+padding-bottom: 40px;
+color: #5a5a5a;
+}
+
+/* Carousel base class */
+.carousel {
+margin-bottom: 2em;
+/*background: #eee;*/
+
+}
+
+.carousel .container {
+position: relative;
+z-index: 9;
+}
+
+/*    .carousel-control {
+height: 80px;
+margin-top: 0;
+font-size: 120px;
+text-shadow: 0 1px 1px rgba(0,0,0,.4);
+background-color: transparent;
+border: 0;
+}*/
+
+/*.carousel .item {
+height: 500px;
+}
+*/
+/*.carousel-inner { text-align: center; }*/
+
+/*.carousel .item > img { display: inline-block; }*/
+
+
+.carousel-caption h1,
+.carousel-caption .lead {
+margin: 0;
+line-height: 1.25;
+color: #fff;
+text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+margin-top: 10px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+text-align: center;
+}
+.marketing h2 {
+font-weight: normal;
+}
+.marketing .span4 p {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-icon {
+font-size: 160px;
+/*      margin-top: -100px; */
+/* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+font-size: 50px;
+font-weight: 300;
+line-height: 1;
+letter-spacing: -1px;
+}
+
+@media (max-width: 767px) {
+
+	.navbar-inner {
+	/*        margin: -20px;*/
+	}
+
+	.carousel {
+	margin-left: -20px;
+	margin-right: -20px;
+	}
+	.carousel .container {
+
+	}
+	.carousel .item {
+	height: 300px;
+	}
+	.carousel img {
+	height: 300px;
+	}
+	.carousel-caption {
+	width: 65%;
+	padding: 0 70px;
+	margin-top: 100px;
+	}
+	.carousel-caption h1 {
+	font-size: 30px;
+	}
+	.carousel-caption .lead,
+	.carousel-caption .btn {
+	font-size: 18px;
+	}
+
+	.marketing .span4 + .span4 {
+	margin-top: 40px;
+	}
+
+}
+
+
+/* -------------------------------------------- */
+/*   ########   CUSTOM    ######### */
+/*#design { color: #839457;font-size: 0.9em;}*/
+#design img {vertical-align:middle;margin-left:2px;width:32px;height:32px;}
+#design a { color: #839457; text-decoration:none;}
+
+.footer {
+-webkit-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
+-moz-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
+ box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+#logo {height:100px;}
+
+.nav { margin: 30px 0;}
+.container.navbar-wrapper {
+margin: 1em 0 1em 0;
+}
+#social-icons {font-size: 48px;margin: -14px 0 0 100px;}
+#social-icons a {text-decoration:none;}
+#social-icons i:hover {color:#666;}
+
+address {font-size: 18px;}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover
+{
+  color: #ffffff;
+  background-color: #666666;
+}
+
+a,
+a:hover {color: #666666;}
+
+/*#contact address {text-align:left;}*/
+
