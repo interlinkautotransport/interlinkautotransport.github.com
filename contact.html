@@ -16,7 +16,26 @@ title: Contact
 			<abbr title="Fax">F:</abbr> (630) 203-0961<br />
 			<a href="http://goo.gl/maps/ZXnGZ">Map</a><br />
 		</address>
-		<a class="btn btn-large btn-primary" href="#">Contact Us</a>
+		<!-- <a class="btn btn-large btn-primary" href="#">Contact Us</a> -->
+		<a href="#myModal" role="button" class="btn btn-primary btn-large" data-toggle="modal">Contact Us Today</a>
 	</div>
  </div>
-	
+
+
+<form action="http://getsimpleform.com/messages?form_api_token=da835eaf7710213001d5715e050e27dc" method="post" class="">
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Contact Us</h3>
+  </div>
+
+  <div class="modal-body">
+		<input type='text' name='email' placeholder="Email"/>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary" type="submit">Send</button>
+  </div>
+</div>
+</form>	
