@@ -29,6 +29,17 @@ body {
 	font-weight: 300;
 }
 
+.carousel-caption-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
 .carousel-caption .btn {
 	margin-top: 1em;
 }
