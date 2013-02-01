@@ -25,7 +25,7 @@ body {
 .carousel-caption
 ,.carousel a
 ,.carousel a:hover {
-	color: #fff;
+/*	color: #fff;*/
 	/*text-shadow: 0 1px 1px rgba(0,0,0,.4);*/
 }
 
