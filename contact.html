@@ -37,12 +37,16 @@ title: Contact
 
   <div class="modal-body">
 	<input type='hidden' name='page' value="Contact"/>
-	<ul>
-		<li><input type='text' name='name' placeholder="Name"/></li>
-		<li><input type='text' name='email' placeholder="Email"/></li>
-		<li><input type='text' name='phone' placeholder="Phone"/></li>
-		<li><textarea rows="3" name="message" placeholder="Message"></textarea></li>
-	</ul>
+	<fieldset>
+		<label>Name</label>
+		<input type='text' name='name' placeholder=""/>
+		<label>Email</label>
+		<input type='text' name='email' placeholder=""/>
+		<label>Phone</label>
+		<input type='text' name='phone' placeholder=""/>
+		<label>Message</label>
+		<textarea rows="3" name="message" placeholder=""></textarea>
+	</fieldset>
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
