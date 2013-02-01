@@ -16,7 +16,13 @@ body {
 	height: 400px;
 }
 
+
+
 .carousel .item img { height: 400px; margin: auto;}
+
+@media (min-width: 1200px) { 
+.carousel .item img { height: 600px; margin: auto;}
+} /*end media*/
 
 .carousel .container {
 	position: relative;
