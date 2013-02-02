@@ -104,17 +104,24 @@
 
         <p class="span4">&copy; 2012-2013 Interlink Auto Transport LLC <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> --></p>
 		<p class="span2">
-			<a href="http://fmcsa.dot.gov"><img src="img/logo_fmcsa.png" /></a>
+			<a href="#" rel="popover" title="MC Number" data-content="804625"><img src="img/logo_fmcsa.png" /></a>
 		</p>
 		<p class="span2">
-			<a href="http://www.dot.gov"><img src="img/logo_usdot.png" /></a>
+			<a href="#" title="US DOT Number" data-content="2003567"><img src="img/logo_usdot.png" /></a>
 		</p>
 		<p id="design" class="span4 muted">design: <a href="http://backupparachute.com">Backup Parachute Software LLC</a><img src="http://backupparachute.com/bps-small.png"/></p>
       </footer>
 
     </div><!-- /.container -->
 
-
+    <script type="text/javascript">
+             $(document).ready(function () {
+               $("a").popover({
+                 'selector': '',
+                 'placement': 'top'
+               });
+             });
+           </script>
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
