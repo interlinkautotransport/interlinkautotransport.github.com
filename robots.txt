@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://interlinkautotransport.com/sitemap.xml
