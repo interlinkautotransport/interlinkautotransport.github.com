@@ -46,19 +46,19 @@
 	<div class="container row-fluid navbar-wrapper">
 		 <a href="/" class="brand span4 offset2"><img class="" src="img/logo.png" id="logo"></a>
 	    <ul class="nav nav-pills span6">
-		{% if page.title == 'Home' %}			
+		{% if page.name == 'Home' %}			
 	  <li class="active">
 		{% else %}
 		<li>
 		{% endif %}
 		<a href="/">Home</a></li>
-		{% if page.title == 'About' %}			
+		{% if page.name == 'About' %}			
 	  <li class="active">
 		{% else %}
 		<li>
 		{% endif %}
 		<a href="about.html">About</a></li>
-			{% if page.title == 'Customers' %}			
+			{% if page.name == 'Customers' %}			
 		  <li class="active">
 			{% else %}
 			<li>
@@ -66,13 +66,13 @@
 			<a href="customers.html">Customers</a>
 		  </li>
 
-	    		{% if page.title == 'Contact' %}			
+	    		{% if page.name == 'Contact' %}			
 			  <li class="active">
 				{% else %}
 				<li>
 				{% endif %}
 		<a href="contact.html">Contact</a></li>
-	      		{% if page.title == 'Employment' %}			
+	      		{% if page.name == 'Employment' %}			
 			  <li class="active">
 				{% else %}
 				<li>
