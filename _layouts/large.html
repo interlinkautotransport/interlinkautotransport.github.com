@@ -12,7 +12,7 @@
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/large.css">
-	
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -37,8 +37,8 @@
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
       <!-- <div class="container"> -->
 
-       
-      <!-- </div>--> <!-- /.container --> 
+
+      <!-- </div>--> <!-- /.container -->
     <!--</div>--> <!-- /.navbar-wrapper -->
 
 
@@ -46,33 +46,33 @@
 	<div class="container row-fluid navbar-wrapper">
 		 <a href="/" class="brand span4 offset2"><img class="" src="img/logo.png" id="logo"></a>
 	    <ul class="nav nav-pills span6">
-		{% if page.name == 'Home' %}			
+		{% if page.name == 'Home' %}
 	  <li class="active">
 		{% else %}
 		<li>
 		{% endif %}
 		<a href="/">Home</a></li>
-		{% if page.name == 'About' %}			
+		{% if page.name == 'About' %}
 	  <li class="active">
 		{% else %}
 		<li>
 		{% endif %}
-		<a href="about.html">About</a></li> 
-			{% if page.name == 'Services' %}			
+		<a href="about.html">About</a></li>
+			{% if page.name == 'Services' %}
 		  <li class="active">
 			{% else %}
 			<li>
-			{% endif %}			
+			{% endif %}
 			<a href="services.html">Services</a>
 		  </li>
 
-	    		{% if page.name == 'Contact' %}			
+	    		{% if page.name == 'Contact' %}
 			  <li class="active">
 				{% else %}
 				<li>
 				{% endif %}
 		<a href="contact.html">Contact</a></li>
-	      		{% if page.name == 'Employment' %}			
+	      		{% if page.name == 'Employment' %}
 			  <li class="active">
 				{% else %}
 				<li>
@@ -94,22 +94,36 @@
       <!-- START THE FEATURETTES -->
 
 {{ content }}
-    
+
       <!-- /END THE FEATURETTES -->
 
+<div class="row-fluid">
+  <p class="span2">
+    <a href="http://wbenc.org/"><img src="img/wbenc.jpg" /></a>
+  </p>
+    <p class="span2">
+      <a href="#" rel="popover" title="MC Number" data-content="804625"><img src="img/logo_fmcsa.png" /></a>
+    </p>
+    <p class="span2">
+      <a href="#" title="US DOT Number" data-content="2003567"><img src="img/logo_usdot.png" /></a>
+    </p>
+    <p class="span2">
+      <a href="http://www.epa.gov/smartway/"><img src="img/smartway.gif" /></a>
+    </p>
+</div>
 
       <!-- FOOTER -->
       <footer class="row-fluid">
         <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
 
-        <p class="span4">&copy; 2012-2013 Interlink Auto Transport LLC <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> --></p>
-		<p class="span2">
-			<a href="#" rel="popover" title="MC Number" data-content="804625"><img src="img/logo_fmcsa.png" /></a>
-		</p>
-		<p class="span2">
-			<a href="#" title="US DOT Number" data-content="2003567"><img src="img/logo_usdot.png" /></a>
-		</p>
-		<p id="design" class="span4 muted">design: <a href="http://backupparachute.com">Backup Parachute Software LLC</a><img src="http://backupparachute.com/bps-small.png"/></p>
+        <p class="span4">&copy; 2012-2014 Interlink Auto Transport LLC <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> --></p>
+
+        <p class="span4">&nbsp;</p>
+
+		    <p id="design" class="span4 muted">design: <a href="http://backupparachute.com">Backup Parachute Software LLC</a><img src="http://backupparachute.com/bps-small.png"/></p>
+
+
+
       </footer>
 
     </div><!-- /.container -->
