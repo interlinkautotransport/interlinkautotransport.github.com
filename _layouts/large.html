@@ -67,18 +67,26 @@
 			<a href="services.html">Services</a>
 		  </li>
 
-	    		{% if page.name == 'Contact' %}
+	    {% if page.name == 'Contact' %}
 			  <li class="active">
 				{% else %}
 				<li>
 				{% endif %}
 		<a href="contact.html">Contact</a></li>
-	      		{% if page.name == 'Employment' %}
+	   	{% if page.name == 'Employment' %}
 			  <li class="active">
 				{% else %}
 				<li>
 				{% endif %}
 		<a href="employment.html">Employment</a></li>
+
+    {% if page.name == 'Sharing is Caring' %}
+     <li class="active">
+     {% else %}
+     <li>
+     {% endif %}
+ <a href="sharingiscaring.html">Sharing is Caring</a></li>
+
 		</ul>
 	</div>
 
