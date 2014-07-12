@@ -45,7 +45,7 @@ height: 500px;
 /*      min-width: 100%;*/
 margin-top: 3em;
 height: 400px;
-/*-webkit-border-radius: .5em; 
+/*-webkit-border-radius: .5em;
 -moz-border-radius: .5em;
 border-radius: .5em;*/
 }
@@ -74,13 +74,13 @@ margin-top: 10px;
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .span4 {
+.marketing .col-md-4 {
 text-align: center;
 }
 .marketing h2 {
 font-weight: normal;
 }
-.marketing .span4 p {
+.marketing .col-md-4 p {
 margin-left: 10px;
 margin-right: 10px;
 }
@@ -157,7 +157,7 @@ height: 500px;
 	font-size: 18px;
 	}
 
-	.marketing .span4 + .span4 {
+	.marketing .col-md-4 + .col-md-4 {
 	margin-top: 40px;
 	}
 
@@ -197,4 +197,3 @@ a,
 a:hover {color: #666666;}
 
 /*#contact address {text-align:left;}*/
-
