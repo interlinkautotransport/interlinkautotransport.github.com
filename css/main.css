@@ -74,13 +74,13 @@ margin-top: 10px;
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-md-4 {
+.marketing .col-lg-4 {
 text-align: center;
 }
 .marketing h2 {
 font-weight: normal;
 }
-.marketing .col-md-4 p {
+.marketing .col-lg-4 p {
 margin-left: 10px;
 margin-right: 10px;
 }
@@ -157,7 +157,7 @@ height: 500px;
 	font-size: 18px;
 	}
 
-	.marketing .col-md-4 + .col-md-4 {
+	.marketing .col-lg-4 + .col-lg-4 {
 	margin-top: 40px;
 	}
 
