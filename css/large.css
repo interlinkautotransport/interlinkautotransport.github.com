@@ -7,53 +7,7 @@ body {
 	color: #666666;
 }
 
-/* Carousel base class */
-.carousel {
-	margin-bottom: 2em;
-}
 
-.carousel img.small {
-	height: 400px;
-}
-
-
-
-.carousel .item img { max-height: 400px; margin: auto;}
-
-@media (min-width: 1200px) {
-.carousel .item img { max-height: 600px; margin: auto;}
-} /*end media*/
-
-.carousel .container {
-	position: relative;
-	z-index: 9;
-}
-
-.carousel-caption
-,.carousel a
-,.carousel a:hover {
-/*	color: #fff;*/
-	/*text-shadow: 0 1px 1px rgba(0,0,0,.4);*/
-}
-
-.carousel-caption h1 {
-	font-weight: 300;
-}
-
-.carousel-caption-top {
-  position: absolute;
-  right: 0;
-  top: 0;
-  left: 0;
-  padding: 15px;
-  background: #333333;
-  background: rgba(0, 0, 0, 0.75);
-  color: #fff;
-}
-
-.carousel-caption .btn {
-	margin-top: 1em;
-}
 
 form ul { list-style:none;}
 
