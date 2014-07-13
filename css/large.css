@@ -85,10 +85,11 @@ form ul { list-style:none;}
 
 address {font-size: 18px;}
 
-.nav-pills > .active > a, .nav-pills > .active > a:hover
-{
-  color: #ffffff;
-  background-color: #666666;
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #428bca;
 }
 
 a,
