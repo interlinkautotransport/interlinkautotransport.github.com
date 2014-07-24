@@ -21,7 +21,7 @@ body {
 .carousel .item img { max-height: 400px; margin: auto;}
 
 @media (min-width: 1200px) {
-.carousel .item img { max-height: 600px; margin: auto;}
+/*.carousel .item img { max-height: 600px; margin: auto;}*/
 } /*end media*/
 
 
