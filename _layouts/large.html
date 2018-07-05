@@ -126,13 +126,11 @@
       <footer class="row">
         <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
 
-        <p class="col-lg-4">&copy; 2012-2018 Interlink Auto Transport LLC <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> --></p>
+	      <p class="col-lg-4">&copy; 2012-<span id="copyright-curr-year"></span> Interlink Auto Transport LLC <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> --></p>
 
         <p class="col-lg-4">&nbsp;</p>
 
 		    <p id="design" class="col-lg-4 muted">design: <a href="http://backupparachute.com">Backup Parachute Software LLC</a></p>
-
-
 
       </footer>
 
@@ -146,6 +144,9 @@
                  'selector': '',
                  'placement': 'top'
                });
+		           var dteNow = new Date();
+		      var intYear = dteNow.getFullYear();
+		     $("#copyright-curr-year").html(intYear);
              });
            </script>
 
